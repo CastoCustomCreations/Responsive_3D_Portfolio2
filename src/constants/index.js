@@ -13,7 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
+  csharp,
   docker,
   meta,
   starbucks,
@@ -23,7 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
-} from "../assets";
+  adobeps,
+  adobepr,
+  } from "../assets";
 
 export const navLinks = [
   {
@@ -105,14 +107,24 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "csharp",
+    icon: csharp,
   },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "adobeps",
+    icon: adobeps,
+  },
+  {
+    name: "adobepr",
+    icon: adobepr,
+  },
+    
 ];
+
 
 const experiences = [
   {
