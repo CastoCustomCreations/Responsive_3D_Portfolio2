@@ -388,7 +388,7 @@ ol li {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  letter-spacing: 15px;
+  letter-spacing: 8px;
   text-shadow: none;
   animation: animate 1s infinite linear;
 }
@@ -434,21 +434,48 @@ ol li:nth-child(1){
   animation-delay: .2s;
 }
 ol li:nth-child(2){
-  animation-delay: .4s;
+  animation-delay: .3s;
 }
 ol li:nth-child(3){
-  animation-delay: .6s;
+  animation-delay: .4s;
 }
 ol li:nth-child(4){
-  animation-delay: .8s;
+  animation-delay: .5s;
 }
 ol li:nth-child(5){
-  animation-delay: 1s;
+  animation-delay: .6s;
 }
 ol li:nth-child(6){
-  animation-delay: 1.2s;
+  animation-delay: .7s;
 }
 ol li:nth-child(7){
-  animation-delay: 1.4s;
+  animation-delay: .8s;
+}
+ol li:nth-child(8){
+  animation-delay: .9s;
+}
+ol li:nth-child(9){
+  animation-delay: .2s;
+}
+ol li:nth-child(10){
+  animation-delay: .3s;
+}
+ol li:nth-child(11){
+  animation-delay: .4s;
+}
+ol li:nth-child(12){
+  animation-delay: .5s;
+}
+ol li:nth-child(13){
+  animation-delay: .6s;
+}
+ol li:nth-child(14){
+  animation-delay: .7s;
+}
+ol li:nth-child(15){
+  animation-delay: .8s;
+}
+ol li:nth-child(16){
+  animation-delay: .9s;
 }
 /* End Blinking Text */
