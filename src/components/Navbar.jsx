@@ -45,13 +45,35 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Jen Casto &nbsp;
-            <span className='sm:block hidden'> | Software Engineer</span>
+             | &nbsp;
+            <ol>
+              <li>S</li>
+              <li>o</li>
+              <li>f</li>
+              <li>t</li>
+              <li>w</li>
+              <li>a</li>
+              <li>r</li>
+              <li>e</li>
+              <li> &nbsp; </li>
+              <li>E</li>
+              <li>n</li>
+              <li>g</li>
+              <li>i</li>
+              <li>n</li>
+              <li>e</li>
+              <li>e</li>
+              <li>r</li>
+             
+              </ol>
           </p>
         </Link>
+        
         <a href="#" class="btn">Download Resume</a> 
         <div class =  "home-img">
           <img src="/src/assets/home.png" />
       </div>
+      
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (

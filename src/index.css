@@ -325,3 +325,130 @@ box-shadow: 0 0 1rem var(--main-color);
 font-size: 2.4rem;
 color: var(--second-bg-color);
 }
+.one {
+
+  background: url('./assets/WalkingImages/cat1.png') center no-repeat;
+  width: 500px;
+  height: 600px;
+  -webkit-animation: change 0.5s infinite;
+  animation: change 0.5s infinite;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@keyframes change {
+
+  12%,
+  24% {
+      background: url('./assets/WalkingImages/cat2.png') center no-repeat;
+  }
+
+  25%,
+  36% {
+      background: url('./assets/WalkingImages/cat3.png') center no-repeat;
+  }
+
+  37%,
+  48% {
+      background: url('./assets/WalkingImages/cat4.png') center no-repeat;
+  }
+
+  49%,
+  60% {
+      background: url('./assets/WalkingImages/cat5.png') center no-repeat;
+  }
+
+  61%,
+  72% {
+      background: url('./assets/WalkingImages/cat6.png') center no-repeat;
+  }
+
+  73%,
+  84% {
+      background: url('./assets/WalkingImages/cat7.png') center no-repeat;
+  }
+
+  85%,
+  100% {
+      background: url('./assets/WalkingImages/cat8.png') center no-repeat;
+  }
+}
+
+ /* Begin Blinking Text */
+ ol{
+  
+  display: flex;
+}
+ol li {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  letter-spacing: 15px;
+  text-shadow: none;
+  animation: animate 1s infinite linear;
+}
+@keyframes animate{
+  0%{
+      color: #484848;
+      text-shadow: none;
+  }
+  18%{
+      color: #484848;
+      text-shadow: none;
+  }
+  20%{
+      color: #fff900;
+      text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
+  }
+  30%{
+      color: #484848;
+      text-shadow: none;
+  }
+  35%{
+      color: #fff900;
+      text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
+  }
+  70%{
+      color: #484848;
+      text-shadow: none;
+  }
+  85%{
+      color: #fff900;
+      text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
+  }
+  90%{
+      color: #484848;
+      text-shadow: none;
+  }
+  100%{
+      color: #484848;
+      text-shadow: none;
+  }
+}
+ol li:nth-child(1){
+  animation-delay: .2s;
+}
+ol li:nth-child(2){
+  animation-delay: .4s;
+}
+ol li:nth-child(3){
+  animation-delay: .6s;
+}
+ol li:nth-child(4){
+  animation-delay: .8s;
+}
+ol li:nth-child(5){
+  animation-delay: 1s;
+}
+ol li:nth-child(6){
+  animation-delay: 1.2s;
+}
+ol li:nth-child(7){
+  animation-delay: 1.4s;
+}
+/* End Blinking Text */

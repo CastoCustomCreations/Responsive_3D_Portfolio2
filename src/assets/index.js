@@ -7,21 +7,23 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import csharp from "./tech/csharp.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.png";
-import adobeps from "./tech/adobeps.png";
-import adobepr from "./tech/adobepr.png";
+import css from "./tech1/css.png";
+import docker from "./tech1/docker.png";
+import csharp from "./tech1/csharp.png";
+import git from "./tech1/git.png";
+import html from "./tech1/html.png";
+import javascript from "./tech1/javascript.png";
+import mongodb from "./tech1/mongodb.png";
+import nodejs from "./tech1/nodejs.png";
+import reactjs from "./tech1/reactjs.png";
+import redux from "./tech1/redux.png";
+import tailwind from "./tech1/tailwind.png";
+import typescript from "./tech1/typescript.png";
+import threejs from "./tech1/threejs.png";
+import adobeps from "./tech1/adobeps.png";
+import adobepr from "./tech1/adobepr.png";
+import adobeae from "./tech1/adobeae.png";
+import gitbash from "./tech1/GitBash.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -62,4 +64,6 @@ export {
   jobit,
   tripguide,
   adobepr,
+  adobeae,
+  gitbash,
 };

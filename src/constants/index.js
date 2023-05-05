@@ -25,7 +25,9 @@ import {
   threejs,
   adobeps,
   adobepr,
-  } from "../assets";
+  gitbash,
+  adobeae
+} from "../assets";
 
 export const navLinks = [
   {
@@ -102,10 +104,7 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
+
   {
     name: "csharp",
     icon: csharp,
@@ -115,16 +114,29 @@ const technologies = [
     icon: docker,
   },
   {
-    name: "adobeps",
+    name: "Git Bash",
+    icon: gitbash,
+  },
+
+
+];
+const adobeSoftware = [
+
+  {
+    name: "PhotoShop",
     icon: adobeps,
+    url: "https://helpx.adobe.com/photoshop/user-guide.html"
   },
   {
-    name: "adobepr",
+    name: "Premiere Pro",
     icon: adobepr,
   },
-    
-];
+  {
+    name: "After Effects",
+    icon: adobeae,
+  },
 
+];
 
 const experiences = [
   {
@@ -274,4 +286,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, adobeSoftware, experiences, testimonials, projects };
