@@ -26,7 +26,22 @@ import {
   adobeps,
   adobepr,
   gitbash,
-  adobeae
+  adobeae,
+  python,
+  sqlserver,
+  vue,
+  cplusplus,
+  mysql,
+  powershell,
+  postman,
+  aspnet,
+  vsc,
+  java,
+  excel,
+  angular,
+  android,
+  access,
+  
 } from "../assets";
 
 export const navLinks = [
@@ -113,31 +128,135 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "Git Bash",
-    icon: gitbash,
-  },
-
-
+ 
 ];
 const adobeSoftware = [
 
   {
     name: "PhotoShop",
     icon: adobeps,
-    url: "https://helpx.adobe.com/photoshop/user-guide.html"
+    url: "https://helpx.adobe.com/photoshop/user-guide.html",
   },
   {
     name: "Premiere Pro",
     icon: adobepr,
+    url: "https://helpx.adobe.com/premiere-pro/user-guide.html",
   },
   {
     name: "After Effects",
     icon: adobeae,
+    url: "https://helpx.adobe.com/after-effects/user-guide.html",
   },
 
 ];
+const codingLanuages = [
+  {
+    name: "C++",
+    icon: cplusplus,
+    url: "https://learn.microsoft.com/en-us/cpp/?view=msvc-170",
+  },
+  {
+    name: "csharp",
+    icon: csharp,
+    url: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+  },
+  {
+    name: "Java",
+    icon: java,
+    url: "https://docs.oracle.com/en/java/",
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+    url: "https://www.typescriptlang.org",
+  },
+  {
+    name: "Python",
+    icon: python,
+    url: "https://docs.python.org/3/",
+  }
 
+]
+const databases = [
+  {
+    name: "Access",
+    icon: access,
+    url: "https://learn.microsoft.com/en-us/office/client-developer/access/access-home",
+  },
+  {
+    name: "Mongo - NoSQL",
+    icon: mongodb,
+    url: "https://dev.mysql.com/doc/",
+  },  
+  {
+    name: "MySQL",
+    icon: mysql,
+    url: "https://dev.mysql.com/doc/",
+  },
+  {
+    name: "SQL Server",
+    icon: sqlserver,
+    url: "https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16",
+  },
+
+  
+]
+const frameworks = [
+  {
+    name: "Angular",
+    icon: angular,
+    url: "https://angular.io/docs",
+  },
+  {
+    name: "React",
+    icon: reactjs,
+    url: "https://react.dev/",
+  },  
+  {
+    name: "Vue",
+    icon: vue,
+    url: "https://vuejs.org/",
+  },
+  {
+    name: "ASP.NET",
+    icon: aspnet,
+    url: "https://learn.microsoft.com/en-us/dotnet/framework/",
+  },  
+  {
+    name: "Redux",
+    icon: redux,
+    url: "https://redux.js.org/",
+  },  
+]
+const commandline = [
+  {
+    name: "Git Bash",
+    icon: gitbash,
+    url: "https://angular.io/docs",
+  },
+  {
+    name: "PowerShell",
+    icon: powershell,
+    url: "https://learn.microsoft.com/en-us/powershell/",
+  },  
+  
+    
+]
 const experiences = [
   {
     title: "React.js Developer",
@@ -286,4 +405,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, adobeSoftware, experiences, testimonials, projects };
+export { services, technologies, databases, adobeSoftware, frameworks,codingLanuages,commandline, experiences, testimonials, projects };

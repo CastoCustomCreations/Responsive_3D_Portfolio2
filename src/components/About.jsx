@@ -53,9 +53,9 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
-       <div class="social-media">
-                <a href="http://www.linkedin.com/in/jencasto" target="_blank"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/CastoCustomCreations" target="_blank"><i class='bx bxl-github'></i></a>
+       <div className="social-media">
+                <a href="http://www.linkedin.com/in/jencasto" target="_blank"><i className='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/CastoCustomCreations" target="_blank"><i className='bx bxl-github'></i></a>
             </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>

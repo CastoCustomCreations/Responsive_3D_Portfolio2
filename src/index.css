@@ -394,7 +394,7 @@ ol li {
 }
 @keyframes animate{
   0%{
-      color: #484848;
+      color: #ffffff;
       text-shadow: none;
   }
   18%{
@@ -406,7 +406,7 @@ ol li {
       text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
   }
   30%{
-      color: #484848;
+      color: #ffffff;
       text-shadow: none;
   }
   35%{
@@ -422,7 +422,7 @@ ol li {
       text-shadow: 0 0 7px #fff900,0 0 20px #ff6c00;
   }
   90%{
-      color: #484848;
+      color: #ffffff;
       text-shadow: none;
   }
   100%{
