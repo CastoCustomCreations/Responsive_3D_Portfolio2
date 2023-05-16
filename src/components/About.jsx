@@ -6,6 +6,8 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { BallCanvas } from "./canvas";
+import { technologies } from "../constants";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -53,17 +55,19 @@ const About = () => {
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
-       <div className="social-media">
-                <a href="http://www.linkedin.com/in/jencasto" target="_blank"><i className='bx bxl-linkedin'></i></a>
+        <div className="social-media">
+              <a href="http://www.linkedin.com/in/jencasto" target="_blank"><i className='bx bxl-linkedin'></i></a>
                 <a href="https://github.com/CastoCustomCreations" target="_blank"><i className='bx bxl-github'></i></a>
             </div>
-
+            
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
+      
     </>
+    
   );
 };
 
