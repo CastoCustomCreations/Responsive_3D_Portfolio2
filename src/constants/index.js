@@ -19,14 +19,34 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  storetemplatebackend,
+  storetemplatefrontend,
+  store,
   threejs,
   adobeps,
   adobepr,
   gitbash,
-  adobeae
+  adobeae,
+  python,
+  sqlserver,
+  vue,
+  cplusplus,
+  mysql,
+  powershell,
+  postman,
+  aspnet,
+  vsc,
+  java,
+  excel,
+  angular,
+  android,
+  access,
+  yarn,
+  kotlin,
+  ksu,
+  gd,
+  
+  
 } from "../assets";
 
 export const navLinks = [
@@ -113,31 +133,149 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
-  {
-    name: "Git Bash",
-    icon: gitbash,
-  },
-
-
+ 
 ];
 const adobeSoftware = [
 
   {
     name: "PhotoShop",
     icon: adobeps,
-    url: "https://helpx.adobe.com/photoshop/user-guide.html"
+    url: "https://helpx.adobe.com/photoshop/user-guide.html",
   },
   {
     name: "Premiere Pro",
     icon: adobepr,
+    url: "https://helpx.adobe.com/premiere-pro/user-guide.html",
   },
   {
     name: "After Effects",
     icon: adobeae,
+    url: "https://helpx.adobe.com/after-effects/user-guide.html",
   },
 
 ];
+const codingLanuages = [
+  {
+    name: "C++",
+    icon: cplusplus,
+    url: "https://learn.microsoft.com/en-us/cpp/?view=msvc-170",
+  },
+  {
+    name: "csharp",
+    icon: csharp,
+    url: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+  },
+  {
+    name: "Java",
+    icon: java,
+    url: "https://docs.oracle.com/en/java/",
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  },
+  {
+    name: "Kotlin",
+    icon: kotlin,
+    url: "https://kotlinlang.org/docs/home.html",
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+    url: "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  },
+  {
+    name: "TypeScript",
+    icon: typescript,
+    url: "https://www.typescriptlang.org",
+  },
+  {
+    name: "Python",
+    icon: python,
+    url: "https://docs.python.org/3/",
+  }
 
+]
+const databases = [
+  {
+    name: "Access",
+    icon: access,
+    url: "https://learn.microsoft.com/en-us/office/client-developer/access/access-home",
+  },
+  {
+    name: "Mongo - NoSQL",
+    icon: mongodb,
+    url: "https://dev.mysql.com/doc/",
+  },  
+  {
+    name: "MySQL",
+    icon: mysql,
+    url: "https://dev.mysql.com/doc/",
+  },
+  {
+    name: "SQL Server",
+    icon: sqlserver,
+    url: "https://learn.microsoft.com/en-us/sql/sql-server/?view=sql-server-ver16",
+  },
+
+  
+]
+const frameworks = [
+  {
+    name: "Angular",
+    icon: angular,
+    url: "https://angular.io/docs",
+  },
+  {
+    name: "React",
+    icon: reactjs,
+    url: "https://react.dev/",
+  },  
+  {
+    name: "Vue",
+    icon: vue,
+    url: "https://vuejs.org/",
+  },
+  {
+    name: "ASP.NET",
+    icon: aspnet,
+    url: "https://learn.microsoft.com/en-us/dotnet/framework/",
+  },  
+  {
+    name: "Redux",
+    icon: redux,
+    url: "https://redux.js.org/",
+  },  
+]
+const commandline = [
+  {
+    name: "Git Bash",
+    icon: gitbash,
+    url: "https://angular.io/docs",
+  },
+  {
+    name: "Node Js",
+    icon: nodejs,
+    url: "https://nodejs.org/en/docs",
+  },
+  {
+    name: "PowerShell",
+    icon: powershell,
+    url: "https://learn.microsoft.com/en-us/powershell/",
+  },  
+  {
+    name: "Yarn",
+    icon: yarn,
+    url: "https://classic.yarnpkg.com/en/docs",
+  },
+    
+]
 const experiences = [
   {
     title: "React.js Developer",
@@ -222,68 +360,110 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "storetemplate_backend",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A dashboard for controlling the Mongo database of a ecommerce store. NextAuth is used to verify that users are signing in from correct IP addresses. Admins can edit products and orders. While employees can only add products and view orders.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Mongo DB",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: storetemplatebackend,
+    source_code_link: "https://github.com/CastoCustomCreations/storetemplate_backend",
   },
   {
-    name: "Job IT",
+    name: "storetemplate_frontend",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A ecommerce store that operates off a Mongo database. Credit card purchases are processed through a Stripe API",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Mongo DB",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "Stripe",
+        color: "red-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: storetemplatefrontend,
+    source_code_link: "https://github.com/CastoCustomCreations/storetemplate_frontend/tree/master",
   },
   {
-    name: "Trip Guide",
+    name: "Store1",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "Angular",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "Stripe",
+        color: "red-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: store,
+    source_code_link: "https://github.com/CastoCustomCreations/store1",
   },
 ];
+const education = [
+  {
+    title: "Bachelor of Science in Information Technology - Software Application Development",
+    company_name: "Kent State University",
+    icon: ksu,
+    iconBg: "#FFFFFF",
+    date: "Sept 2017 - Dec 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Bachelor of Science in Information Technology - Internet and Multimedia",
+    company_name: "Kent State University",
+    icon: ksu,
+    iconBg: "#FFFFFF",
+    date: "Sept 2017 - Dec 2022",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Associate Android Developer Certification",
+    company_name: "Google Developers",
+    icon: gd,
+    iconBg: "#FFFFFF",
+    date: "Jan 2022 - Jan 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  
+];
 
-export { services, technologies, adobeSoftware, experiences, testimonials, projects };
+export { services, technologies, databases, adobeSoftware, frameworks,codingLanuages,commandline, experiences, testimonials, projects,education };

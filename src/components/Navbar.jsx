@@ -45,7 +45,7 @@ const Navbar = () => {
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Jen Casto &nbsp;
-             | &nbsp;
+             | &nbsp;</p>
             <ol>
               <li>S</li>
               <li>o</li>
@@ -66,11 +66,11 @@ const Navbar = () => {
               <li>r</li>
              
               </ol>
-          </p>
+          
         </Link>
         
-        <a href="#" class="btn">Download Resume</a> 
-        <div class =  "home-img">
+        <a href="#" className="btn">Download Resume</a> 
+        <div className =  "home-img">
           <img src="/src/assets/home.png" />
       </div>
       
